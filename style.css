@@ -1,0 +1,66 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  justify-self: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red !important;
+  background-color: blue;
+  display: inline-block;
+  border: 1px solid;
+}
+
+#spe {
+  height: 300px !important;
+}
+
+#container {
+  width: 800px;
+  margin: 0px auto;
+}
+
+#banner {
+  height: 200px;
+  background-color: red;
+}
+
+#menu {
+  height: 30px;
+  background-color: aqua;
+}
+
+#leftbar {
+  width: 150px;
+  background-color: pink;
+  float: left;
+}
+
+#content {
+  width: 500px;
+  background-color: yellow;
+  float: left;
+}
+
+#right {
+  width: 150px;
+  background-color: aliceblue;
+  float: left;
+}
+
+#bottom {
+  height: 30px;
+  background-color: aquamarine;
+}
+
+#footer {
+  height: 30px;
+  background-color: blueviolet;
+  clear: both;
+}
