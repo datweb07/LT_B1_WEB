@@ -1,6 +1,30 @@
+*{
+
+}
+
+.my-table{
+  box-shadow: red 10px 10px 50px;
+  border-radius: 50px;
+  padding: 20px;
+  background-color:hotpink;
+}
+
+#my-head{                                                                                                                      
+  background-color: red !important;
+}
+
+#my-body{
+  background-color: chartreuse;
+}
+
+#my-foot{
+  background-color: darkorange;
+}
+
+
 .square {
   width: 100px;
-  height: 100px;
+  height: 100px;              
   background-color: red;
   justify-self: center;
   align-items: center;
@@ -64,3 +88,62 @@
   background-color: blueviolet;
   clear: both;
 }
+
+.container{
+  width: 90%;
+  height: 500px;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+
+
+.banner{
+  width: 100%;
+  height: 50px;
+background-color: aqua;
+}
+
+.menu{
+  width: 100%;
+  height: 30Spx;
+background-color: aquamarine;
+}
+
+/* .lsidebar .content .rsidebar {
+  height: 40px !important;
+} */
+
+.lsidebar{
+  width: 20%;
+  height: 100px;
+  float: left;
+background-color: chartreuse;
+}
+
+.content{
+  width: 60%;
+  height: 80px;
+  float: left;
+background-color: aliceblue;
+}
+
+.rsidebar{
+  width: 20%;
+  height: 80px;
+  float: left;
+background-color: coral;
+}
+
+.footer{
+  height: 40px;
+background-color: deeppink;
+}
+
+.cpright{
+  height: 40px;
+background-color:orangered;
+}
+
+
+
+
