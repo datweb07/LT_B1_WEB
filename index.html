@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Test</title>
   </head>
   <body>
     <a
@@ -94,25 +94,65 @@
     <p>x<sup>2</sup></p>
 
     <table with="40%" , border="1" cellspacing="0" align="center">
-      <tr align="center" valign="top">
-        <td colspan="2" height="50" width="200">Quý đầu</td>
-        <td colspan="2" height="50" width="200">Quý cuối</td>
-      </tr>
+   <thead>
+    <tr align="center" valign="top">
+      <td colspan="2" height="50" width="200">Quý đầu</td>
+      <td colspan="2" height="50" width="200">Quý cuối</td>
+    </tr>
+   </thead>
 
-      <tr align="center">
+      <tbody>
+        <tr align="center">
         <td>Thu</td>
         <td>Chi</td>
         <td>Thu</td>
         <td>Chi</td>
       </tr>
+    </tbody>
 
+     <tfoot>
       <tr align="center">
         <td>99</td>
         <td>99</td>
         <td>1000</td>
         <td>1000</td>
       </tr>
+     </tfoot>
+
     </table>
+
+    <br>
+
+    <table width="40%" border="1" align="center" margin-top="30px" cellspacing="0" class="my-table">
+      <thead height="40px" id="my-head">
+        <tr align="center" align="top">
+          <td></td>
+          <td>Q1</td>
+          <td>Q2</td>
+          <td>Q3</td>
+          <td>Q4</td>
+        </tr>
+
+        <tbody height="40px" align="center" id="my-body">
+          <tr>
+            <td>Doanh so</td>
+            <td>1 ty</td>
+            <td>1.5</td>
+            <td>1.7</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+
+        <tfoot align="center" height="40px" id="my-foot">
+          <tr> 
+            <td>Tong</td>
+            <td colspan="4">5.1</td>
+          </tr>
+        </tfoot>
+      </thead>
+    </table>
+
+    <br>
 
     <div class="square"></div>
 
@@ -147,5 +187,21 @@
 
       <div id="footer"></div>
     </div>
+
+    <div class="container">
+      <div class="banner">Banner</div>
+      <div class="menu">Menu</div>
+      <div class="lsidebar" >Left</div>
+      <div class="content">Content</div>
+      <div class="rsidebar">Right</div>
+      <br style="clear: both;">
+      <div class="footer">Footer</div>
+      <div class="cpright">Copyright</div>
+     
+    </div>
+
+    <div class="all"></div>
+
+    
   </body>
 </html>
